@@ -8,7 +8,8 @@ import { mkdir, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
-const LOGIN = "wintopic";
+// Follows the account automatically in Actions, so a future rename needs no edit here.
+const LOGIN = process.env.GITHUB_REPOSITORY_OWNER || "OddlyLabs";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const ASSETS = join(ROOT, "assets");
 
@@ -106,7 +107,7 @@ function headerSvg() {
   const charW = 16 * 0.6;
   const typedW = Math.ceil(typed.length * charW);
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="wintopic — local-first tools for AI agents, native desktops and the edge">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="OddlyLabs — local-first tools for AI agents, native desktops and the edge">
   <style>
     .tw { fill: #fff; animation: tw 4s ease-in-out infinite; }
     @keyframes tw { 0%,100% { opacity: .15 } 50% { opacity: .9 } }
@@ -154,8 +155,8 @@ function headerSvg() {
   </g>
   <rect x=".5" y=".5" width="${W - 1}" height="${H - 1}" rx="22" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
 
-  <text x="80" y="104" font-family="${MONO}" font-size="16" fill="#5eead4">~/wintopic <tspan fill="#7c86a2">$</tspan> <tspan fill="#c9d1e3">whoami</tspan></text>
-  <text x="76" y="178" font-family="${SANS}" font-size="72" font-weight="800" letter-spacing="-1.5" fill="url(#name)">wintopic</text>
+  <text x="80" y="104" font-family="${MONO}" font-size="16" fill="#5eead4">~/oddlylabs <tspan fill="#7c86a2">$</tspan> <tspan fill="#c9d1e3">whoami</tspan></text>
+  <text x="76" y="178" font-family="${SANS}" font-size="72" font-weight="800" letter-spacing="-1.5" fill="url(#name)">OddlyLabs</text>
   <text x="80" y="214" font-family="${SANS}" font-size="20" fill="#c9d1e3">做本地优先的小工具 · AI 智能体 · 原生桌面 · 边缘网络</text>
   <g clip-path="url(#type)">
     <text x="80" y="254" font-family="${MONO}" font-size="16" fill="#ffd166">${esc(typed)}</text>
