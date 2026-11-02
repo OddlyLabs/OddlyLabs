@@ -12,17 +12,17 @@
   <line x1="368" y1="28" x2="368" y2="168" stroke="#232c45"/>
   <text x="32" y="76" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="30" font-weight="800" fill="#ffd166">52</text>
   <text x="32" y="98" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="13" fill="#7c86a2">Original repos</text>
-  <text x="202" y="76" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="30" font-weight="800" fill="#5eead4">10</text>
+  <text x="202" y="76" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="30" font-weight="800" fill="#5eead4">11</text>
   <text x="202" y="98" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="13" fill="#7c86a2">Stars earned</text>
-  <text x="32" y="148" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="30" font-weight="800" fill="#a78bfa">6</text>
+  <text x="32" y="148" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="30" font-weight="800" fill="#a78bfa">7</text>
   <text x="32" y="170" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="13" fill="#7c86a2">Followers</text>
-  <text x="202" y="148" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="30" font-weight="800" fill="#f9a8d4">401</text>
+  <text x="202" y="148" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="30" font-weight="800" fill="#f9a8d4">413</text>
   <text x="202" y="170" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="13" fill="#7c86a2">Contributions (1y)</text>
-  <g clip-path="url(#bar)"><rect x="400.0" y="64" width="95.6" height="10" fill="#f1e05a"/><rect x="495.6" y="64" width="86.4" height="10" fill="#dea584"/><rect x="582.0" y="64" width="49.2" height="10" fill="#00ADD8"/><rect x="631.1" y="64" width="48.7" height="10" fill="#3178c6"/><rect x="679.9" y="64" width="37.2" height="10" fill="#e34c26"/><rect x="717.0" y="64" width="111.0" height="10" fill="#4b5571"/></g>
+  <g clip-path="url(#bar)"><rect x="400.0" y="64" width="95.4" height="10" fill="#f1e05a"/><rect x="495.4" y="64" width="86.2" height="10" fill="#dea584"/><rect x="581.5" y="64" width="49.1" height="10" fill="#00ADD8"/><rect x="630.6" y="64" width="48.6" height="10" fill="#3178c6"/><rect x="679.2" y="64" width="37.1" height="10" fill="#e34c26"/><rect x="716.3" y="64" width="111.7" height="10" fill="#4b5571"/></g>
   <circle cx="405" cy="104" r="5" fill="#f1e05a"/>
   <text x="416" y="108" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="13" fill="#c9d1e3">JavaScript <tspan fill="#7c86a2">22.3%</tspan></text>
   <circle cx="547.6666666666666" cy="104" r="5" fill="#dea584"/>
-  <text x="558.6666666666666" y="108" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="13" fill="#c9d1e3">Rust <tspan fill="#7c86a2">20.2%</tspan></text>
+  <text x="558.6666666666666" y="108" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="13" fill="#c9d1e3">Rust <tspan fill="#7c86a2">20.1%</tspan></text>
   <circle cx="690.3333333333333" cy="104" r="5" fill="#00ADD8"/>
   <text x="701.3333333333333" y="108" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="13" fill="#c9d1e3">Go <tspan fill="#7c86a2">11.5%</tspan></text>
   <circle cx="405" cy="134" r="5" fill="#3178c6"/>
@@ -30,5 +30,5 @@
   <circle cx="547.6666666666666" cy="134" r="5" fill="#e34c26"/>
   <text x="558.6666666666666" y="138" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="13" fill="#c9d1e3">HTML <tspan fill="#7c86a2">8.7%</tspan></text>
   <circle cx="690.3333333333333" cy="134" r="5" fill="#4b5571"/>
-  <text x="701.3333333333333" y="138" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="13" fill="#c9d1e3">Other <tspan fill="#7c86a2">25.9%</tspan></text>
+  <text x="701.3333333333333" y="138" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans SC','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="13" fill="#c9d1e3">Other <tspan fill="#7c86a2">26.1%</tspan></text>
 </svg>
